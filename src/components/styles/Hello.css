@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+.Fitness-User-Info {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 200px;
+}
+
+@media (max-width: 600px) {
+  .Fitness-User-Info {
+    margin-left: 0px;
+  }
+}
+
+.workouttext {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  padding-left: 10px;
+}
+
+@media (min-width: 1400px) {
+  .workouttext {
+    margin-top: 12%;
+    margin-bottom: 12%;
+  }
+}
+
+@media (max-width: 600px) {
+  .workouttext {
+    padding-left: 5%;
+  }
+}

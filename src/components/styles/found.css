@@ -1,0 +1,18 @@
+.not-found {
+  display: flex;
+  margin-bottom: 30%;
+
+  color: black;
+}
+
+@media (min-width: 1400px) {
+  .not-found {
+    margin-bottom: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .not-found {
+    margin-bottom: 100%;
+  }
+}
